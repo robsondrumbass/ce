@@ -1,0 +1,11 @@
+{
+    "name": "robsondrumbass/ce",
+    "description": "Treinamento Laravel CodeEducation https://github.com/robsondrumbass/ce.git",
+    "authors": [
+        {
+            "name": "Robson Santos",
+            "email": "robsondrumbass@gmail.com"
+        }
+    ],
+    "require": {}
+}
