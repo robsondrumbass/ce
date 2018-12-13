@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 Route::get('home','WelcomeController@index');
 Route::get('inicio','InicioController@index');
+Route::get('admin/categories','AdminCategoriesController@index');
+Route::get('admin/products','AdminProductsController@index');

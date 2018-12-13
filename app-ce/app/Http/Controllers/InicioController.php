@@ -20,7 +20,7 @@ class InicioController extends Controller
 		//$categories = $this->categories;
 		//return view('inicio')->with('nome',$nome);
 		//return view('inicio')->with('categories');
-		//return view('inicio',compact('nome','sobrenome'));
-		return view('inicio',["nome","sobrenome"]);
+		return view('inicio',compact('nome','sobrenome'));
+		//return view('inicio',['nome'=>$nome,'sobrenome'=>$sobrenome]);
 	}
 }
